@@ -1,0 +1,18 @@
+h1 {
+/*    color: rgb(241, 144, 55);*/
+    color: white;
+}
+
+a {
+    margin-top: 10px;
+    width: 50%;
+}
+
+div {
+    margin-top: 150px;
+    text-align: center;
+    padding: 20px;
+/*    background-color: rgb(239, 203, 174);*/
+    background-color: rgb(255, 184, 65);
+    border-radius: 15px;
+}

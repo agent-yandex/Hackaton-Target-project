@@ -1,0 +1,26 @@
+h1 {
+    padding-top: 30px;
+    text-decoration: underline;
+}
+
+h2 {
+    color: white;
+    padding-top: 10px;
+}
+
+a {
+    margin-top: 10px;
+    width: 100%;
+}
+
+div {
+    margin-top: 30px;
+    text-align: left;
+    padding: 20px;
+    background-color: rgb(255, 184, 65);
+    border-radius: 15px;
+}
+
+ul {
+    text-align: left;
+}

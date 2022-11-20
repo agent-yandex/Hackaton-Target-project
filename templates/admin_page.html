@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Панель администратора</h1>
+<div>
+    {% for type in dict_all_types %}
+        <ul class="list-group">
+            <h2>{{ type }}</h2>
+            {% for prod in dict_all_types[type] %}
+                    <li class="list-group-item">{{ prod }} - <i>куплено {{ dict_all_types[type][prod] }} шт.</i></li>
+            {% endfor %}
+        </ul>
+    {% endfor %}
+    <a class="btn btn-primary" role="button" href="/">Закрыть</a>
+</div>
+{% endblock %}

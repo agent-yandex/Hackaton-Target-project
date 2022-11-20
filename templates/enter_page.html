@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div>
+    <h1>Вход</h1>
+    <form method="post">
+        {{ form.hidden_tag() }}
+        {{ form.phone(class='form-control', placeholder='Телефон') }}
+        <br>
+        {{ form.submit(class='btn btn-primary') }}
+        <br>
+        <a class="btn btn-primary" role="button" href="/">Назад</a>
+        <p>{{ message }}</p>
+    </form>
+</div>
+{% endblock %}

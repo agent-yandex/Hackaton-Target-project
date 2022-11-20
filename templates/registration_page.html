@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div>
+    <h1>Регистрация</h1>
+    <form method="post">
+        {{ form.hidden_tag() }}
+        {{ form.name(class='form-control', placeholder='Имя') }}
+        <br>
+        {{ form.surname(class='form-control', placeholder='Фамилия') }}
+        <br>
+        {{ form.phone(class='form-control', placeholder='Телефон') }}
+        <br>
+        {{ form.submit(class='btn btn-primary') }}
+        <br>
+        <a class="btn btn-primary" role="button" href="/">Назад</a>
+        <p><strong>{{ message }}</strong></p>
+    </form>
+</div>
+{% endblock %}

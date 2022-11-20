@@ -1,0 +1,13 @@
+body {
+    height: 100%; 
+    width: 100%;
+/*    background-color: rgb(228, 172, 110);*/
+/*    background-color: rgb(255,184,65);*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    vertical-align: middle;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}

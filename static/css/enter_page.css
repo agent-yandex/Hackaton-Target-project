@@ -1,0 +1,21 @@
+.btn {
+    width: 100%;
+    margin-top: 10px;
+}
+
+div {
+    margin-top: 150px;
+    margin-bottom: auto;
+    padding: 20px;
+    background-color: rgb(255, 184, 65);
+    border-radius: 15px;
+}
+
+p {
+    color: red;
+}
+
+h1 {
+    padding-bottom: 10px;
+    color: white;
+}
